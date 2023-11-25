@@ -1,3 +1,3 @@
-?php
+<!DOCTYPE html>
 
-?>
+<!DOCTYPE html>
