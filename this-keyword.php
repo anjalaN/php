@@ -27,6 +27,6 @@ $employee = new Employee;
 $employee->first_name = 'anjala';
 $employee->last_name = 'niroshani';
 
-$employee->full_name();
+echo $employee->full_name();
 
 ?>
