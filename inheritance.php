@@ -22,6 +22,9 @@ class Computer extends Product {
 	var $ram;
 
 }
+class mobilePhone extends Computer {
+
+}
 
 class Garment extends Product {
 
@@ -55,5 +58,15 @@ if (is_subclass_of('Computer', 'Product')) {
 }else {
 	echo 'computer is NOT a subclass of product';
 }
+
+echo '<br>';
+echo '<br>';
+
+echo 'Getting a list of class parent for computer';
+//$parents = class_parents('Computer');
+$parents = class_parents('mobilePhone');
+echo '<br>';
+print_r($parents);
+echo '<br>';
 
 ?>
